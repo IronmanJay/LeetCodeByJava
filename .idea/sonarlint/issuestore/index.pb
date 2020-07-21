@@ -23,3 +23,5 @@ w
 G.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,f\0\f0e0f9cec86fe4b939ae22be5264c758801eb28f
 i
 9src/GreedyAlgorithm/p122_BestTimeToBuyAndSellStockII.java,f\9\f9a89522bf99e6363cd397d4275646592d9da44f
+l
+<src/GreedyAlgorithm/p1221_SplitAStringInBalancedStrings.java,a\3\a3ae7f096b803e336126bda1e11ac960c01762de
