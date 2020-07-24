@@ -15,7 +15,7 @@ public class p765_CouplesHoldingHands {
         for (int i = 0; i < row.length; i += 2) {
             // 这里用异或，实际就是如果当前是偶数，那么对应的情侣肯定是对应的(+1)奇数，反之如果当前数是奇数，那么对应的情侣肯定是对应的(-1)偶数
             if (row[i + 1] == (row[i] ^ 1)) {
-                // 如果符号要求，直接跳出当前这次循环就可以
+                // 如果符合要求，直接跳出当前这次循环就可以
                 continue;
             }
             // 否则开始交换，找到对应的情侣，结果相应+1
@@ -24,6 +24,7 @@ public class p765_CouplesHoldingHands {
                 if (row[j] == (row[i] ^ 1)) {
                     row[j] = row[i + 1];
                     row[i + 1] = row[i] ^ 1;
+                    break;
                 }
             }
         }
