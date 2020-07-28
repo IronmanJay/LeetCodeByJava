@@ -55,3 +55,7 @@ w
 G.idea/sonarlint/issuestore/f/9/f9a89522bf99e6363cd397d4275646592d9da44f,9\5\95f722c55e7bd0d9fc91aa5aba5f10676c65c965
 S
 #src/HashTable/p202_HappyNumber.java,8\d\8d3afb948ecd9e29a3a8690c36c4a1306d9d2830
+Y
+)src/HashTable/p217_ContainsDuplicate.java,d\f\df1e9b750d2184bda8447c5475c5bac6d7e4fdb8
+T
+$src/HashTable/p49_GroupAnagrams.java,0\6\0602b127b466383b8987ab57278d089b30f2b0b8
