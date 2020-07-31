@@ -87,3 +87,5 @@ I
 .idea/leetcode/editor.xml,4\e\4e1d1083192753a7663628e0017ffffe55ae10ed
 R
 "src/HashTable/p36_ValidSudoku.java,b\3\b3c6fbcd95840697d6e320aeae2b5e03904458cc
+\
+,src/HashTable/p347_TopKFrequentElements.java,9\3\938ae7ac9eeeb3ab07bbdb6d67347218468ee1cc
