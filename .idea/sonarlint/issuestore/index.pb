@@ -13,8 +13,6 @@ W
 'src/Queue/p933_NumberOfRecentCalls.java,3\1\311303f23291bfb89967d416208b030c587ddb0e
 d
 4src/DFS/p1028_RecoverATreeFromPreorderTraversal.java,5\6\5641aad5d0721f9a77a14b3fdc5a8f3fa1bda342
-S
-#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 w
 G.idea/sonarlint/issuestore/5/6/5641aad5d0721f9a77a14b3fdc5a8f3fa1bda342,5\8\58b4707e93be1f07cfd3d6d26e74deb3b946fbfb
 w
@@ -89,3 +87,5 @@ R
 "src/HashTable/p36_ValidSudoku.java,b\3\b3c6fbcd95840697d6e320aeae2b5e03904458cc
 \
 ,src/HashTable/p347_TopKFrequentElements.java,9\3\938ae7ac9eeeb3ab07bbdb6d67347218468ee1cc
+ˆ
+Xsrc/DivideAndConquerAlgorithm/o39_TheNumberInTheArrayThatAppearsMoreThanHalfTheTime.java,4\3\43046a136a1e45bb0b47d183eff1b49c199ed47b
