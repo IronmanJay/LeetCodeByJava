@@ -37,7 +37,7 @@ public class I1710_FindMajorityElementLcci {
         // 如果分成当前部分单个元素左边和右边不相等，那么就需要在当前数组中分别找到各自出现的次数
         int leftNumCount = countInRange(nums, leftNum, left, mid);
         int rightNumCount = countInRange(nums, rightNum, mid + 1, right);
-        // 这里记录当前左右数组的一半，如果当前元素大于当前数组的一半，那么肯定是这个数组的主要元素
+        // 这里记录当前左右数组的一半，如果当前元素出现次数大于当前数组的一半，那么肯定是这个数组的主要元素
         int leftHalf = (mid - left) >> 1;
         int rightHalf = (right - (mid + 1)) >> 1;
         // 这里两个判断条件，首先是当前元素出现的次数要大于当前数组的一半，另一个是左边元素出现的次数要大于右边元素出现的次数，这样左边就是当前数组的主要元素
