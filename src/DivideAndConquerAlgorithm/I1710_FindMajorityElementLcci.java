@@ -13,12 +13,12 @@ public class I1710_FindMajorityElementLcci {
     }
 
     /**
-     * 使用分治算法查找每部分的最多元素
+     * 使用分治算法查找每部分的主要元素
      *
      * @param nums  待查数组
      * @param left  左指针
      * @param right 右指针
-     * @return 当前部分的最多元素
+     * @return 当前部分的主要元素
      */
     public static int majorityElementReturn(int[] nums, int left, int right) {
         // 如果分成了单个元素，直接返回，开始“治”
@@ -30,7 +30,7 @@ public class I1710_FindMajorityElementLcci {
         // 分别向左右递归，开始“分”，最终将数组分成单个元素
         int leftNum = majorityElementReturn(nums, left, mid);
         int rightNum = majorityElementReturn(nums, mid + 1, right);
-        // 如果分成当前部分单个元素，左边元素值和右边元素值相等，说明当前阶段的众数就是这个元素，返回即可，这也是“治”
+        // 如果分成当前部分单个元素，左边元素值和右边元素值相等，说明当前阶段的主要元素就是这个元素，返回即可，这也是“治”
         if (leftNum == rightNum) {
             return leftNum;
         }
