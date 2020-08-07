@@ -1,9 +1,13 @@
 package DivideAndConquerAlgorithm;
 
+import java.util.Arrays;
+
 public class p932_BeautifulArray {
 
     public static void main(String[] args) {
-
+        int n = 4;
+        int[] res = beautifulArray(n);
+        System.out.println("res = " + Arrays.toString(res));
     }
 
     public static int[] beautifulArray(int N) {
