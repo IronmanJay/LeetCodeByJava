@@ -217,3 +217,5 @@ f
 6src/DivideAndConquerAlgorithm/p932_BeautifulArray.java,5\1\5146109bc678abae60f6ff742aa958a2b632146a
 i
 9src/DivideAndConquerAlgorithm/p240_SearchA2dMatrixII.java,5\a\5a43f9bdfa2da0ef0a7350318caf6a87aec54755
+M
+src/String/p67_AddBinary.java,0\a\0af877df929cd97aa06744970a7b7196e4e67f6b
