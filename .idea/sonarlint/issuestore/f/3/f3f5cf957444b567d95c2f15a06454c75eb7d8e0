@@ -1,6 +1,6 @@
 
-y	java:S1273"XRefactor the code in order to not assign to this loop counter from within the loop body.(€Ã¹ûÿÿÿÿ8‡·°Ç½.
+y	java:S127/"XRefactor the code in order to not assign to this loop counter from within the loop body.(œ‘“şÿÿÿÿ8‡·°Ç½.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…ß
 o
 java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(÷ğ8‡·°Ç½.
-y	java:S127/"XRefactor the code in order to not assign to this loop counter from within the loop body.(œ‘“şÿÿÿÿ8‡·°Ç½.
+y	java:S1273"XRefactor the code in order to not assign to this loop counter from within the loop body.(€Ã¹ûÿÿÿÿ8‡·°Ç½.
