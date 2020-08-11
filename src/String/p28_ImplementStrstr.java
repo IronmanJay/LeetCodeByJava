@@ -25,7 +25,7 @@ public class p28_ImplementStrstr {
         int N = needle.length();
         // 遍历到H-N即可，后面超过长度没必要比较，减少比较次数
         for (int i = 0; i <= H - N; i++) {
-            // 这里首先暴力匹配一下，
+            // 这里首先暴力匹配一下
             int j = 0;
             while (j < N && needle.charAt(j) == haystack.charAt(i + j)) {
                 j++;
@@ -42,7 +42,7 @@ public class p28_ImplementStrstr {
                 while (k >= 0 && i + N < H && needle.charAt(k) != haystack.charAt(i + N)) {
                     k--;
                 }
-                // 说明当前这个元素未出现在待匹配字符串中，跳过即可之前的元素+这个不匹配的元素
+                // 如果k<0说明当前这个元素未出现在待匹配字符串中，跳过即可之前的元素+这个不匹配的元素
                 if (k < 0) {
                     i = i + N + 1;
                 }
