@@ -1,8 +1,8 @@
 
-n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áûK
+o
+java:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÖŞÏè
 t
 java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(‘©Ï‚şÿÿÿÿ
 o
-java:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÖŞÏè
-o
 java:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").(š…ª
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áûK
