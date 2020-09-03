@@ -22,7 +22,7 @@ public class p75_SortColors {
         for (int i = 0; i <= twoIndex; ) {
             /**
              * 因为就三个数字，所以定义1为基准值，如果当前元素等于基准（1）值数组不发生变化，
-             * nums[zeroIndex,twoIndex] = 1;
+             * nums[zeroIndex,twoIndex] = 1
              */
             if (nums[i] == 1) {
                 i++;
