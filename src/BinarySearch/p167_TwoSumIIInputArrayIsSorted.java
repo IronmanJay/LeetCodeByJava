@@ -35,7 +35,7 @@ public class p167_TwoSumIIInputArrayIsSorted {
                 else if (numbers[mid] > target - numbers[i]) {
                     high = mid - 1;
                 }
-                // 如果在除去固定值的数组中，发现中间值小于target和固定值的差值，说明我们要找的在中间值右边，向左查找
+                // 如果在除去固定值的数组中，发现中间值小于target和固定值的差值，说明我们要找的在中间值右边，向右查找
                 else {
                     low = mid + 1;
                 }
