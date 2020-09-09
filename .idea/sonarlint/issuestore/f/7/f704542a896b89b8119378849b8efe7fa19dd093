@@ -1,0 +1,8 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óéÂ¨þÿÿÿÿ
+R
+java:S2589 "7Remove this expression which always evaluates to "true"(Ò˜Œàûÿÿÿÿ
+R
+java:S25891"7Remove this expression which always evaluates to "true"(Ò˜Œàûÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(„ýÞÁ
