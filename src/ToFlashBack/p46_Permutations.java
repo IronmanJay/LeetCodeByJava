@@ -31,7 +31,7 @@ public class p46_Permutations {
     }
 
     public static void dfs(int[] nums, List<Integer> path, List<List<Integer>> res, boolean[] used, int len, int depth) {
-        // 如果当前遍历的深度和数组长度一样说明找到了一个排列，加入结果数组，并将此次递归返回
+        // 如果当前递归的深度和数组长度一样说明找到了一个排列，加入结果数组，并将此次递归返回
         if (depth == len) {
             // 这里要new，否则返回空数组，因为直接加入是地址引用，必须拷贝一下数据值才能得到结果
             res.add(new ArrayList<>(path));
