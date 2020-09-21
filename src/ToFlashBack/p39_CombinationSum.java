@@ -53,7 +53,7 @@ public class p39_CombinationSum {
         for (int i = begin; i < len; i++) {
             // 将当前结点添加到路径中
             path.addLast(candidates[i]);
-            // 开始搜索，每次从头开始剪，因为元素可以重复使用，所以下一轮的起点还是i，target由于做减法，减去当前遍历到的值，最后如果减到0说明找到了对应的组合
+            // 开始搜索，每次从头开始减，因为元素可以重复使用，所以下一轮的起点还是i，target由于做减法，减去当前遍历到的值，最后如果减到0说明找到了对应的组合
             dfs(candidates, i, len, target - candidates[i], path, res);
             // 每找到一个路经，重置状态
             path.removeLast();
