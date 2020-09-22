@@ -49,7 +49,7 @@ public class p46_Permutations {
                 dfs(nums, path, res, used, len, depth + 1);
                 // 从这里开始回溯，回到上一个状态，也就是当前元素还没有被使用
                 used[i] = false;
-                // 并将已经得到的结果元素删除，充值状态
+                // 并将已经得到的结果元素删除，重置状态
                 path.remove(path.size() - 1);
             }
         }
