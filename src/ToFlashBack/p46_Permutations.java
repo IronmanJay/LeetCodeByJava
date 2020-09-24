@@ -20,7 +20,7 @@ public class p46_Permutations {
         if (len == 0) {
             return res;
         }
-        // 新建排列路经数组
+        // 新建排列路径数组
         List<Integer> path = new ArrayList<>();
         // 判断对应元素是否使用过
         boolean[] used = new boolean[len];
@@ -41,7 +41,7 @@ public class p46_Permutations {
         for (int i = 0; i < len; i++) {
             // 只有当前元素没有使用过才可以做第一个开始的排列
             if (!used[i]) {
-                // 将当前元素加入排列路经
+                // 将当前元素加入排列路径
                 path.add(nums[i]);
                 // 将当前元素置为已经使用
                 used[i] = true;

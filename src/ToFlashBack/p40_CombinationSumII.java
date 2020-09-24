@@ -20,7 +20,7 @@ public class p40_CombinationSumII {
         if (len == 0) {
             return res;
         }
-        // 路经数组
+        // 路径数组
         Deque<Integer> path = new ArrayDeque<>();
         // 只有进行排序才能去重，且升序
         Arrays.sort(candidates);
@@ -35,7 +35,7 @@ public class p40_CombinationSumII {
      * @param begin      搜索起点
      * @param len        数组长度
      * @param target     目标值，每减一个元素，目标值变小
-     * @param path       表示路经
+     * @param path       表示路径
      * @param res        结果集
      */
     public static void dfs(int[] candidates, List<List<Integer>> res, Deque<Integer> path, int len, int target, int begin) {
@@ -43,7 +43,7 @@ public class p40_CombinationSumII {
         if (target < 0) {
             return;
         }
-        // target为0说明搜索到对应的组合，将这条路经加入到结果中，并返回
+        // target为0说明搜索到对应的组合，将这条路径加入到结果中，并返回
         if (target == 0) {
             res.add(new ArrayList<>(path));
             return;
@@ -62,7 +62,7 @@ public class p40_CombinationSumII {
             path.addLast(candidates[i]);
             // 开始搜索，每次从头开始减，因为元素不可以重复使用，所以下一轮的起点是i+1，target由于做减法，减去当前遍历到的值，最后如果减到0说明找到了对应的组合
             dfs(candidates, res, path, len, target - candidates[i], i + 1);
-            // 每找到一个路经，重置状态
+            // 每找到一个路径，重置状态
             path.removeLast();
         }
     }
