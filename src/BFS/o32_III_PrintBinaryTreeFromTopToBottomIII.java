@@ -5,22 +5,22 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class o32_III_PrintBinaryTreeFromTopToBottom {
+public class o32_III_PrintBinaryTreeFromTopToBottomIII {
 
     int val;
-    o32_III_PrintBinaryTreeFromTopToBottom left;
-    o32_III_PrintBinaryTreeFromTopToBottom right;
+    o32_III_PrintBinaryTreeFromTopToBottomIII left;
+    o32_III_PrintBinaryTreeFromTopToBottomIII right;
 
-    o32_III_PrintBinaryTreeFromTopToBottom(int x) {
+    o32_III_PrintBinaryTreeFromTopToBottomIII(int x) {
         val = x;
     }
 
     public static void main(String[] args) {
-        o32_III_PrintBinaryTreeFromTopToBottom root = new o32_III_PrintBinaryTreeFromTopToBottom(3);
-        o32_III_PrintBinaryTreeFromTopToBottom left = new o32_III_PrintBinaryTreeFromTopToBottom(9);
-        o32_III_PrintBinaryTreeFromTopToBottom right = new o32_III_PrintBinaryTreeFromTopToBottom(20);
-        o32_III_PrintBinaryTreeFromTopToBottom right1 = new o32_III_PrintBinaryTreeFromTopToBottom(15);
-        o32_III_PrintBinaryTreeFromTopToBottom right2 = new o32_III_PrintBinaryTreeFromTopToBottom(7);
+        o32_III_PrintBinaryTreeFromTopToBottomIII root = new o32_III_PrintBinaryTreeFromTopToBottomIII(3);
+        o32_III_PrintBinaryTreeFromTopToBottomIII left = new o32_III_PrintBinaryTreeFromTopToBottomIII(9);
+        o32_III_PrintBinaryTreeFromTopToBottomIII right = new o32_III_PrintBinaryTreeFromTopToBottomIII(20);
+        o32_III_PrintBinaryTreeFromTopToBottomIII right1 = new o32_III_PrintBinaryTreeFromTopToBottomIII(15);
+        o32_III_PrintBinaryTreeFromTopToBottomIII right2 = new o32_III_PrintBinaryTreeFromTopToBottomIII(7);
         root.left = left;
         root.right = right;
         right.left = right1;
@@ -29,7 +29,7 @@ public class o32_III_PrintBinaryTreeFromTopToBottom {
         System.out.println("res = " + res);
     }
 
-    public static List<List<Integer>> levelOrder(o32_III_PrintBinaryTreeFromTopToBottom root) {
+    public static List<List<Integer>> levelOrder(o32_III_PrintBinaryTreeFromTopToBottomIII root) {
         // 结果数组
         List<List<Integer>> res = new ArrayList<>();
         // 判空返回
@@ -37,7 +37,7 @@ public class o32_III_PrintBinaryTreeFromTopToBottom {
             return res;
         }
         // 存放每一层的队列
-        Queue<o32_III_PrintBinaryTreeFromTopToBottom> queue = new LinkedList<>();
+        Queue<o32_III_PrintBinaryTreeFromTopToBottomIII> queue = new LinkedList<>();
         // 先将根节点入队列
         queue.add(root);
         // 记录是第几层
@@ -50,7 +50,7 @@ public class o32_III_PrintBinaryTreeFromTopToBottom {
             int size = queue.size();
             // 当前这一层有几个节点就循环几次，循环到每一个节点的同时将将节点值加入到临时数组中，另外将每一个节点的孩子节点入队列，因为只遍历队列中当前层的节点，所以对孩子（下一层）的节点不构成影响
             for (int i = 0; i < size; i++) {
-                o32_III_PrintBinaryTreeFromTopToBottom node = queue.poll();
+                o32_III_PrintBinaryTreeFromTopToBottomIII node = queue.poll();
                 // 奇数层正常添加节点值
                 if (level % 2 != 0) {
                     temp.add(node.val);
