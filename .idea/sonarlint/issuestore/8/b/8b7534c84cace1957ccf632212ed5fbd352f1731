@@ -1,0 +1,10 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ì±õ’8•ãû¼Ò.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—··
+Œ
+java:S1319A"oThe type of the "visited" object should be an interface such as "Map" rather than the implementation "HashMap".(‚¹Ğ8êÈØ½Ò.
+’
+java:S1319"uThe type of the "_neighbors" object should be an interface such as "List" rather than the implementation "ArrayList".(¿æ»¢8•ãû¼Ò.
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ì±õ’8•ãû¼Ò.
