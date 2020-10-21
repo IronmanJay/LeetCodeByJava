@@ -1,9 +1,17 @@
 package Array;
 
+import java.util.Arrays;
+
 public class p73_SetMatrixZeroes {
 
     public static void main(String[] args) {
-        System.out.println("成功！");
+        int[][] matrix = {
+                {1, 1, 1},
+                {1, 0, 1},
+                {1, 1, 1},
+        };
+        setZeroes(matrix);
+        System.out.println("res = " + Arrays.deepToString(matrix));
     }
 
     public static void setZeroes(int[][] matrix) {
