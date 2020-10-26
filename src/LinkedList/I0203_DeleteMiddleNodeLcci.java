@@ -17,7 +17,7 @@ public class I0203_DeleteMiddleNodeLcci {
         first.next = second;
         second.next = third;
         third.next = forth;
-        deleteNode(first);
+        deleteNode(second);
     }
 
     public static void deleteNode(I0203_DeleteMiddleNodeLcci node) {
