@@ -18,6 +18,14 @@ public class I0203_DeleteMiddleNodeLcci {
         second.next = third;
         third.next = forth;
         deleteNode(second);
+        while (first != null) {
+            if (first.next == null) {
+                System.out.print(first.val);
+            } else {
+                System.out.print(first.val + "->");
+            }
+            first = first.next;
+        }
     }
 
     public static void deleteNode(I0203_DeleteMiddleNodeLcci node) {
