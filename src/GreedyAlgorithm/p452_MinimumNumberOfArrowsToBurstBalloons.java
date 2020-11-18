@@ -19,7 +19,7 @@ public class p452_MinimumNumberOfArrowsToBurstBalloons {
         }
         // 对二维数组按照气球直径结束位置从小到大排序，目的是找出重叠区间
         Arrays.sort(points, (a, b) -> Integer.compare(a[1], b[1]));
-        // 从第一个气球开始射，
+        // 从第一个气球开始射
         int temp = points[0][1];
         // 需要一个箭
         int res = 1;
