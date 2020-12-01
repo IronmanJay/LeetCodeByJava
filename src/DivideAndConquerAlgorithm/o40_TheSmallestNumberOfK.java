@@ -75,7 +75,7 @@ public class o40_TheSmallestNumberOfK {
      *
      * @param arr    待排序数组
      * @param index1 第一个数索引
-     * @param index2 第二个树索引
+     * @param index2 第二个数索引
      */
     private static void swap(int[] arr, int index1, int index2) {
         int temp = arr[index1];
