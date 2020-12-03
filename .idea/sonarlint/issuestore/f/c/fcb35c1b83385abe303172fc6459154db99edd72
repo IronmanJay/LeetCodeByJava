@@ -1,0 +1,6 @@
+
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ќ—€{8…‡Ж в.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ўі§©
+`
+java:S1155*">Use isEmpty() to check whether the collection is empty or not.(ѓџЧЫэяяяя8ґъЖ в.
