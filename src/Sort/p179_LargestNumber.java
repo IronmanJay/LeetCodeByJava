@@ -27,7 +27,7 @@ public class p179_LargestNumber {
             }
         });
         // 如果首位为0，直接返回即可
-        if (arrs[0] == "0") {
+        if (arrs[0].charAt(0) == '0') {
             return "0";
         }
         // 将结果字符串数组转换成字符串返回
