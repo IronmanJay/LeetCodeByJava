@@ -27,7 +27,7 @@ public class p164_MaximumGap {
     }
 
     /**
-     * 因为要求线性时间复杂度，所以使用基数排序对数组进行排序（不做注释，具体请参见DataStructures/Soort/RadixSort.java）
+     * 因为要求线性时间复杂度，所以使用基数排序对数组进行排序（不做注释，具体请参见Java Project/DataStructures/Sort/RadixSort.java）
      *
      * @param nums 待排序数组
      * @return
