@@ -40,7 +40,7 @@ public class p854_KSimilarStrings {
                 }
                 // 从不相等的字符index的下一个开始遍历
                 for (int j = i + 1; j < A.length(); j++) {
-                    // 假设i，j是A要交换的index，那么当A和B中第i，j个字符相等时，不需要交换，同事要确保B的第j个字符不等于A的第i个字符
+                    // 假设i，j是A要交换的index，那么当A和B中第i，j个字符相等时，不需要交换，同时要确保B的第j个字符不等于A的第i个字符
                     if (cur.charAt(j) == B.charAt(j) || B.charAt(j) != cur.charAt(i)) {
                         continue;
                     }
