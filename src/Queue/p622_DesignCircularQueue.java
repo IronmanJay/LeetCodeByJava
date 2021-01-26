@@ -1,6 +1,6 @@
 package Queue;
 
-public class P622_DesignCircularQueue {
+public class p622_DesignCircularQueue {
 
     private static int[] queue; // 数组模拟队列
     private static int len; // 需要生成的长度
@@ -8,7 +8,7 @@ public class P622_DesignCircularQueue {
     private static int rear; // 队列尾指针
 
     public static void main(String[] args) {
-        P622_DesignCircularQueue res1 = new P622_DesignCircularQueue(3);
+        p622_DesignCircularQueue res1 = new p622_DesignCircularQueue(3);
         boolean res2 = enQueue(1);
         boolean res3 = enQueue(2);
         boolean res4 = enQueue(3);
@@ -22,7 +22,7 @@ public class P622_DesignCircularQueue {
     }
 
     // 初始化队列
-    public P622_DesignCircularQueue(int k) {
+    public p622_DesignCircularQueue(int k) {
         len = k + 1; // 这里+1是因为要预留一个元素位置
         queue = new int[len];
     }
