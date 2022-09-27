@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package HashTable;
 
 import java.util.ArrayList;
 import java.util.List;
