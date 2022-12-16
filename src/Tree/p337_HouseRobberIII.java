@@ -47,7 +47,7 @@ public class p337_HouseRobberIII {
         int[] left = getResByDfs(root.left);
         int[] right = getResByDfs(root.right);
         int selectVal = root.val + left[1] + right[1];
-        int noSelectVal = Math.max(left[0], right[1]) + Math.max(left[1], right[0]);
+        int noSelectVal = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
         return new int[]{selectVal, noSelectVal};
     }
 
