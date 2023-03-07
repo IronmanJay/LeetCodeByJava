@@ -2,7 +2,7 @@ package GreedyAlgorithm;
 
 /**
  * @Author: IronmanJay
- * @Description: TODO
+ * @Description: 605.种花问题
  * @CreateTime: 2023-03-04  14:27
  */
 public class p605_CanPlaceFlowers {

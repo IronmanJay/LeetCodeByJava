@@ -2,7 +2,7 @@ package GreedyAlgorithm;
 
 /**
  * @Author: IronmanJay
- * @Description: TODO
+ * @Description: 1323.6 和 9 组成的最大数字
  * @CreateTime: 2023-03-06  10:34
  */
 public class p1323_Maximum69Number {

@@ -2,7 +2,7 @@ package GreedyAlgorithm;
 
 /**
  * @Author: IronmanJay
- * @Description: TODO
+ * @Description: 680.验证回文串 II
  * @CreateTime: 2023-03-05  11:20
  */
 public class p680_ValidPalindromeII {
